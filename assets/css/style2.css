@@ -79,3 +79,7 @@ ul.tl li .timestamp{
     text-align: right;
     font-size: 12px;
 }
+#glug{
+    font-size: 15px;
+    display: inline;
+}
