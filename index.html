@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
+
 <head>
     <!-- Meta Tags -->
     <meta charset="UTF-8">
@@ -11,31 +12,30 @@
     <link rel="icon" href="assets/img/favicon.png">
     <!-- Title -->
     <title>Hack 3.0</title>
-    
-  <!-- Facebook -->
-  <meta property="og:url" content="http://csec.nith.ac.in/hack" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Hack 3.0" />
-  <meta property="og:description" content="Hack3.0 will be successor over the previous hackathon organized by CSEC. It will be organized on 9th and 10th of Feb 2019. " />
-  <meta property="og:image" content="https://raw.githubusercontent.com/CSEC-NITH/hack/master/assets/img/favicon.png"
-  />
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:creator" content="Team CSEC">
-  <meta name="twitter:site" content="http://csec.nith.ac.in/hack">
-  <meta name="twitter:title" content="Hack 3.0">
-  <meta name="twitter:description" content="Hack3.0 will be successor over the previous hackathon organized by CSEC. It will be organized on 9th and 10th of Feb 2019.">
-  <meta name="twitter:image:src" content="https://raw.githubusercontent.com/CSEC-NITH/hack/master/assets/img/favicon.png">
-  <meta name="twitter:image:width" content="312">
-  <meta name="twitter:image:height" content="141">
+    <!-- Facebook -->
+    <meta property="og:url" content="http://csec.nith.ac.in/hack" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Hack 3.0" />
+    <meta property="og:description" content="Hack3.0 will be successor over the previous hackathon organized by CSEC. It will be organized on 9th and 10th of Feb 2019. " />
+    <meta property="og:image" content="https://raw.githubusercontent.com/CSEC-NITH/hack/master/assets/img/favicon.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="Team CSEC">
+    <meta name="twitter:site" content="http://csec.nith.ac.in/hack">
+    <meta name="twitter:title" content="Hack 3.0">
+    <meta name="twitter:description" content="Hack3.0 will be successor over the previous hackathon organized by CSEC. It will be organized on 9th and 10th of Feb 2019.">
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/CSEC-NITH/hack/master/assets/img/favicon.png">
+    <meta name="twitter:image:width" content="312">
+    <meta name="twitter:image:height" content="141">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet">
     <!-- Icon Fonts -->
     <link rel="stylesheet" href="assets/vendor/strokegap/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <link rel="stylesheet" href="assets/vendor/linearicons/style.css">
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
@@ -47,481 +47,595 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body id="top" class="dino-event">
-<!-- Start Page Preloader -->
-<div id="loading">
-    <div id="loading-center">
-        <div id="loading-center-absolute">
-            <div class="object" id="object_four"></div>
-            <div class="object" id="object_three"></div>
-            <div class="object" id="object_two"></div>
-            <div class="object" id="object_one"></div>
+    <!-- Start Page Preloader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_four"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_one"></div>
+            </div>
         </div>
     </div>
-</div>
-<!-- End Page Preloader -->
-<!-- Start Header -->
-<header class="header header-shrink bg-white fixed-top">
-    <div class="container">
-        <!-- Start Navigation -->
-        <nav class="navbar navbar-expand-lg px-md-0">
-            <!-- Start Logo -->
-            <a class="navbar-brand" href="index.html">
+    <!-- End Page Preloader -->
+    <!-- Start Header -->
+    <header class="header header-shrink bg-white fixed-top">
+        <div class="container">
+            <!-- Start Navigation -->
+            <nav class="navbar navbar-expand-lg px-md-0">
+                <!-- Start Logo -->
+                <a class="navbar-brand" href="index.html">
                     <h6 class="display-4 u-fw-600" style="font-size: 30px;display: inline;">
-                            CSEC 
-                        </h6>/
-                        <h6 class="display-4 u-fw-600" id="glug">GLUG</h6>
-            </a>
+                        CSEC
+                    </h6>/
+                    <h6 class="display-4 u-fw-600" id="glug">GLUG</h6>
+                </a>
 
-            <!-- End Logo -->
-            <!-- Start Mobile Button -->
-            <button class="navbar-toggler p-0" data-toggle="collapse" data-target="#navbarNav">
-                <span class="hamburger hamburger--spin js-hamburger">
-                    <span class="hamburger-box">
-                        <span class="hamburger-inner"></span>
+                <!-- End Logo -->
+                <!-- Start Mobile Button -->
+                <button class="navbar-toggler p-0" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="hamburger hamburger--spin js-hamburger">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
                     </span>
-                </span>
-            </button>
-            <!-- End Mobile Button -->
-            <!-- Start Menu -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#" data-scrollto="top">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="why">Why</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="schedule">Schedule</a>
-                    </li>
-                    <li class="nav-item">
+                </button>
+                <!-- End Mobile Button -->
+                <!-- Start Menu -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" data-scrollto="top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scrollto="about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scrollto="why">Why</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scrollto="schedule">Schedule</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#" data-scrollto="faq">FAQ</a>
                         </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="sponsors">Sponsors</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- End Menu -->
-        </nav>
-        <!-- End Navigation -->
-    </div>
-</header>
-<!-- Footer Header -->
-<!-- Start Hero -->
-<section id="hero-event" class="u-py-100 u-h-100vh u-flex-center" data-parallax="assets/img/event/hero-banner.jpg">
-    <div class="container" id="banner">
-        <div class="row">
-            <div class="col-12 u-mt-80">
-                <h1 class="display-4 u-fw-600">
-                    HACK 3.0
-                </h1>
-                <h2 class="my-4">
-                    <span class="text-primary">9 Feb 2019 - 10 Feb 2019,</span> <span class="text-red">NIT Hamirpur</span>
-                </h2>
-                <a href="https://form.jotform.me/90348364611456" target="__blank" class="btn btn btn-rounded btn-primary px-md-5">
-                    Create Team
-                </a> 
-                <a href="https://form.jotform.me/90348734215457" target="__blank" class="btn btn btn-rounded btn-primary px-md-5">
-                    Join Team
-                </a>
-            </div>
-            <div class="col-12 u-mt-80">
-                <div class="d-flex u-ff-dosis" data-countdown="2019/02/09">
-                    <div class="m-3 u-w-150 u-h-150 rounded-circle bg-primary-opacity-0_2 u-flex-center">
-                        <span class="u-lh-0_9 text-primary u-fs-30 u-fs-md-48 u-fw-600 countdown-days"></span>
-                        <span class="u-fs-18">Days</span>
-                    </div>
-                    <div class="m-3 u-w-150 u-h-150 rounded-circle bg-primary-opacity-0_2 u-flex-center">
-                        <span class="u-lh-0_9 text-primary u-fs-30 u-fs-md-48 u-fw-600 countdown-hours"></span>
-                        <span class="u-fs-18">Hours</span>
-                    </div>
-                    <div class="m-3 u-w-150 u-h-150 rounded-circle bg-primary-opacity-0_2 u-flex-center">
-                        <span class="u-lh-0_9 text-primary u-fs-30 u-fs-md-48 u-fw-600 countdown-minutes"></span>
-                        <span class="u-fs-18">Minutes</span>
-                    </div>
-                    <div class="m-3 u-w-150 u-h-150 rounded-circle bg-primary-opacity-0_2 u-flex-center">
-                        <span class="u-lh-0_9 text-primary u-fs-30 u-fs-md-48 u-fw-600 countdown-seconds"></span>
-                        <span class="u-fs-18">Seconds</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scrollto="sponsors">Sponsors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scrollto="contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scrollto="mentors">Mentors</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Menu -->
+            </nav>
+            <!-- End Navigation -->
+        </div>
+    </header>
+    <!-- Footer Header -->
+    <!-- Start Hero -->
+    <section id="hero-event" class="u-py-100 u-h-100vh u-flex-center" data-parallax="assets/img/event/hero-banner.jpg">
+        <div class="container" id="banner">
+            <div class="row">
+                <div class="col-12 u-mt-80">
+                    <h1 class="display-4 u-fw-600">
+                        HACK 3.0
+                    </h1>
+                    <h2 class="my-4">
+                        <span class="text-primary">9 Feb 2019 - 10 Feb 2019,</span> <span class="text-red">NIT Hamirpur</span>
+                    </h2>
+                    <a href="https://form.jotform.me/90348364611456" target="__blank" class="btn btn btn-rounded btn-primary px-md-5">
+                        Create Team
+                    </a>
+                    <a href="https://form.jotform.me/90348734215457" target="__blank" class="btn btn btn-rounded btn-primary px-md-5">
+                        Join Team
+                    </a>
+                </div>
+                <div class="col-12 u-mt-80">
+                    <div class="d-flex u-ff-dosis" data-countdown="2019/02/09">
+                        <div class="m-3 u-w-150 u-h-150 rounded-circle bg-primary-opacity-0_2 u-flex-center">
+                            <span class="u-lh-0_9 text-primary u-fs-30 u-fs-md-48 u-fw-600 countdown-days"></span>
+                            <span class="u-fs-18">Days</span>
+                        </div>
+                        <div class="m-3 u-w-150 u-h-150 rounded-circle bg-primary-opacity-0_2 u-flex-center">
+                            <span class="u-lh-0_9 text-primary u-fs-30 u-fs-md-48 u-fw-600 countdown-hours"></span>
+                            <span class="u-fs-18">Hours</span>
+                        </div>
+                        <div class="m-3 u-w-150 u-h-150 rounded-circle bg-primary-opacity-0_2 u-flex-center">
+                            <span class="u-lh-0_9 text-primary u-fs-30 u-fs-md-48 u-fw-600 countdown-minutes"></span>
+                            <span class="u-fs-18">Minutes</span>
+                        </div>
+                        <div class="m-3 u-w-150 u-h-150 rounded-circle bg-primary-opacity-0_2 u-flex-center">
+                            <span class="u-lh-0_9 text-primary u-fs-30 u-fs-md-48 u-fw-600 countdown-seconds"></span>
+                            <span class="u-fs-18">Seconds</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End Hero -->
-<!-- Start About -->
-<section id="about">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="dino-event-about" >
-                <h2>About HACK 3.0 2019</h2>
-                <div class="u-h-4 u-w-50 bg-primary rounded mt-50 u-mb-40"></div>
-                <p class="u-fs-18">
-                        Hack3.0 will be successor over the previous hackathon organized by CSEC. It will be organized on 9th and 10th of Feb 2019.
-                        It will involve people working in teams over a period of two days to try to create a project that can be used by end users. We welcome as much participation from the college as possible.
-                </p>
-                <a href="#" class="btn btn-red btn-rounded mt-4" data-scrollto="schedule">View Schedule</a>
+    </section>
+    <!-- End Hero -->
+    <!-- Start About -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="dino-event-about">
+                    <h2>About HACK 3.0 2019</h2>
+                    <div class="u-h-4 u-w-50 bg-primary rounded mt-50 u-mb-40"></div>
+                    <p class="u-fs-18">
+                        Hack3.0 will be successor over the previous hackathon organized by CSEC. It will be organized
+                        on 9th and 10th of Feb 2019.
+                        It will involve people working in teams over a period of two days to try to create a project
+                        that can be used by end users. We welcome as much participation from the college as possible.
+                    </p>
+                    <a href="#" class="btn btn-red btn-rounded mt-4" data-scrollto="schedule">View Schedule</a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End About -->
-<hr class="m-0">
-<!-- Start Why -->
-<section id="why" class="bg-gray-v2 u-pb-30">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 mb-4 dino-event-why">
-                <h2 class="mb-4">
-                    Why HACK 3.0?
-                </h2>
-                <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-40"></div>
-                <p>Hack 3.0 will be a perfect opportunity for those seeking to apply their knowledge to hands-on projects and for those eager to venture into new areas of computing and learn new skills. 
-                        It will give you an opportunity to brainstorm ingenious ideas and implement them into real-life projects. Being a team event, it will help you gain experience of teamwork and allow you to showcase your potential while competing with the best of minds.</p>
-               
-            </div>
-            <div class="col-md-6 mb-4 dino-event-why">
-                <h2 class="mb-4">
-                    Who Should Attend?
-                </h2>
-                <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-40"></div>
-                <p>Students from all branches who have a knack for learning outside the classrooms are equally welcome to participate in the hackathon. </p>
-                <p>The inexperienced students who wish to participate will be provided with mentors to guide them and to seek help from throughout their project.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Why -->
-<!-- Start Speakers -->
+    </section>
+    <!-- End About -->
+    <hr class="m-0">
+    <!-- Start Why -->
+    <section id="why" class="bg-gray-v2 u-pb-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4 dino-event-why">
+                    <h2 class="mb-4">
+                        Why HACK 3.0?
+                    </h2>
+                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-40"></div>
+                    <p>Hack 3.0 will be a perfect opportunity for those seeking to apply their knowledge to hands-on
+                        projects and for those eager to venture into new areas of computing and learn new skills.
+                        It will give you an opportunity to brainstorm ingenious ideas and implement them into real-life
+                        projects. Being a team event, it will help you gain experience of teamwork and allow you to
+                        showcase your potential while competing with the best of minds.</p>
 
-<!-- End Speakers -->
-<!-- Start Schedule -->
-<section id="schedule" data-parallax="assets/img/event/bg-1.png">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center dino-event-schedule">
-                <h2 class="h1">
-                    Hackathon Schedule
-                </h2>
-                <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-70 mx-auto"></div>
-            </div>
-            <div class="row box-shadow-v2 p-5">
-                <div class="col-1 col-md-6" id="timelineban">
-                    <img src="assets/img/event/timeline.png"/>
                 </div>
-            <div class="col-12 col-md-6 history-tl-container">
-                    <ul class="tl col-12">
+                <div class="col-md-6 mb-4 dino-event-why">
+                    <h2 class="mb-4">
+                        Who Should Attend?
+                    </h2>
+                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-40"></div>
+                    <p>Students from all branches who have a knack for learning outside the classrooms are equally
+                        welcome to participate in the hackathon. </p>
+                    <p>The inexperienced students who wish to participate will be provided with mentors to guide them
+                        and to seek help from throughout their project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Why -->
+    <!-- Start Speakers -->
+
+    <!-- End Speakers -->
+    <!-- Start Schedule -->
+    <section id="schedule" data-parallax="assets/img/event/bg-1.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center dino-event-schedule">
+                    <h2 class="h1">
+                        Hackathon Schedule
+                    </h2>
+                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-70 mx-auto"></div>
+                </div>
+                <div class="row box-shadow-v2 p-5">
+                    <div class="col-1 col-md-6" id="timelineban">
+                        <img src="assets/img/event/timeline.png" />
+                    </div>
+                    <div class="col-12 col-md-6 history-tl-container">
+                        <ul class="tl col-12">
                             <li class="tl-item" ng-repeat="item in retailer_history">
-                              <div class="timestamp">
-                                8th Febuary<br> 8:00 PM
-                              </div>
-                              <div class="item-title">pre-meet</div>
-                              <div class="item-detail">where we will finalize each team</div>
+                                <div class="timestamp">
+                                    8th Febuary<br> 8:00 PM
+                                </div>
+                                <div class="item-title">pre-meet</div>
+                                <div class="item-detail">where we will finalize each team</div>
                             </li>
                             <li class="tl-item" ng-repeat="item in retailer_history">
-                              <div class="timestamp">
+                                <div class="timestamp">
                                     9th Febuary<br> 8:00 AM
-                              </div>
-                              <div class="item-title">Prepare yourself, </div>
-                              <div class="item-detail">bring your energy drinks.</div>
+                                </div>
+                                <div class="item-title">Prepare yourself, </div>
+                                <div class="item-detail">bring your energy drinks.</div>
                             </li>
                             <li class="tl-item" ng-repeat="item in retailer_history">
-                                    <div class="timestamp">
-                                          9th Febuary<br> 9:00 AM
-                                    </div>
-                                    <div class="item-title">Make yourself comfortable  </div>
-                                    <div class="item-detail">and start hitting your keyboard.</div>
-                                  </li>
-                                  <li class="tl-item" ng-repeat="item in retailer_history">
-                                        <div class="timestamp">
-                                              9th Febuary<br> 8:00 PM
+                                <div class="timestamp">
+                                    9th Febuary<br> 9:00 AM
+                                </div>
+                                <div class="item-title">Make yourself comfortable </div>
+                                <div class="item-detail">and start hitting your keyboard.</div>
+                            </li>
+                            <li class="tl-item" ng-repeat="item in retailer_history">
+                                <div class="timestamp">
+                                    9th Febuary<br> 8:00 PM
+                                </div>
+                                <div class="item-title">You can take a break, </div>
+                                <div class="item-detail">You have done a lot of work. </div>
+                            </li>
+                            <li class="tl-item" ng-repeat="item in retailer_history">
+                                <div class="timestamp">
+                                    10th Febuary<br> 8:00 AM
+                                </div>
+                                <div class="item-title">Prepare yourself, </div>
+                                <div class="item-detail"> bring more energy drinks than the previous day, you gonna
+                                    need it.</div>
+                            </li>
+
+                            <li class="tl-item" ng-repeat="item in retailer_history">
+                                <div class="timestamp">
+                                    10th Febuary<br> 9:00 AM
+                                </div>
+                                <div class="item-title">You can continue hitting the keyboard. </div>
+                            </li>
+
+                            <li class="tl-item" ng-repeat="item in retailer_history">
+                                <div class="timestamp">
+                                    10th Febuary<br> 4:00 PM
+                                </div>
+                                <div class="item-title">Give your project a nice closing, </div>
+                                <div class="item-detail"> prepare your presentations.</div>
+                            </li>
+
+                            <li class="tl-item" ng-repeat="item in retailer_history">
+                                <div class="timestamp">
+                                    10th Febuary<br> 5:00 PM
+                                </div>
+                                <div class="item-title">Submit your project and move to the presentation venue. </div>
+                            </li>
+                            <li class="tl-item" ng-repeat="item in retailer_history">
+                                <div class="timestamp">
+                                    10th Febuary<br> 5:30 PM - 8:00 PM
+                                </div>
+                                <div class="item-title">Time to present your two days hard work to judges. </div>
+                            </li>
+                            <li class="tl-item" ng-repeat="item in retailer_history">
+                                <div class="timestamp">
+                                    10th Febuary<br> 8:10 PM - 8:30 PM
+                                </div>
+                                <div class="item-title">Recieve your rewards, </div>
+                                <div class="item-detail"> And go back to your hostel with a smile on your face.</div>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Schedule -->
+    <section id="faq" class="bg-gray-v2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto text-center dino-app-faq">
+                    <h2 class="h1">
+                        What People Ask
+                    </h2>
+                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-40 mx-auto"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-4">
+                    <div id="accordion" role="tablist" class="bg-white box-shadow-v3">
+                        <div class="accordion__faq" id="mentors">
+                            <a class="accordion__title p-4" data-toggle="collapse" href="#acc9">
+                                <i class="fa fa-angle-down mr-3"></i>
+                                Mentors
+                            </a>
+                            <div id="acc9" class="collapse" role="tabpanel" data-parent="#accordion">
+                                <div class="accordion__text">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade active show rounded" id="day1" role="tabpanel"
+                                            aria-expanded="true">
+                                            <p class="text-red u-my-40 text-center u-fw-600 u-fs-22">
+                                                List
+                                            </p>
+                                            <table class="table table-responsive text-center text-md-left">
+                                                <thead class="bg-primary border-0 text-white">
+                                                    <tr>
+                                                        <th scope="col" class="text-center text-md-left">Name</th>
+                                                        <th scope="col" class="text-center text-md-left">Branch</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Amit Chambial </th>
+                                                        <td>CSE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Anurag Thakur</th>
+                                                        <td>CSE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Anishka Gupta</th>
+                                                        <td>CSE DD</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Archit Jain</th>
+                                                        <td>CSE DD</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Karan Guleri</th>
+                                                        <td>CSE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Nimit Bhardwaj</th>
+                                                        <td>CSE DD</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Rakesh Choudhary</th>
+                                                        <td>CSE DD</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Shahrayar Shamshi</th>
+                                                        <td>CSE IIITU</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Sourav Sahoo</th>
+                                                        <td>CSE DD</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Sunidhi Chaudhary</th>
+                                                        <td>CSE DD</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Vishal Bhardwaj</th>
+                                                        <td>CSE DD</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Deven Sharma</th>
+                                                        <td>CSE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Nitin Sharma</th>
+                                                        <td>CSE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Jatin Rao</th>
+                                                        <td>CSE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Vishal Choudhary</th>
+                                                        <td>CSE DD</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Yatendra Mourya</th>
+                                                        <td>CSE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Ankit Guleria</th>
+                                                        <td>CSE</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
-                                        <div class="item-title">You can take a break, </div>
-                                        <div class="item-detail">You have done a lot of work. </div>
-                                      </li>
-                                      <li class="tl-item" ng-repeat="item in retailer_history">
-                                            <div class="timestamp">
-                                                  10th Febuary<br> 8:00 AM
-                                            </div>
-                                            <div class="item-title">Prepare yourself, </div>
-                                            <div class="item-detail"> bring more energy drinks than the previous day, you gonna need it.</div>
-                                          </li>
-
-                                          <li class="tl-item" ng-repeat="item in retailer_history">
-                                                <div class="timestamp">
-                                                      10th Febuary<br> 9:00 AM
-                                                </div>
-                                                <div class="item-title">You can continue hitting the keyboard. </div>
-                                              </li>
-
-                                              <li class="tl-item" ng-repeat="item in retailer_history">
-                                                    <div class="timestamp">
-                                                          10th Febuary<br> 4:00 PM
-                                                    </div>
-                                                    <div class="item-title">Give your project a nice closing,  </div>
-                                                    <div class="item-detail"> prepare your presentations.</div>
-                                                  </li>
-
-                                                  <li class="tl-item" ng-repeat="item in retailer_history">
-                                                        <div class="timestamp">
-                                                              10th Febuary<br> 5:00 PM
-                                                        </div>
-                                                        <div class="item-title">Submit your project and move to the presentation venue.  </div>
-                                                      </li> 
-                                                       <li class="tl-item" ng-repeat="item in retailer_history">
-                                                            <div class="timestamp">
-                                                                  10th Febuary<br> 5:30 PM - 8:00 PM
-                                                            </div>
-                                                            <div class="item-title">Time to present your two days hard work to judges.  </div>
-                                                          </li> 
-                                                           <li class="tl-item" ng-repeat="item in retailer_history">
-                                                    <div class="timestamp">
-                                                          10th Febuary<br> 8:10 PM - 8:30 PM
-                                                    </div>
-                                                    <div class="item-title">Recieve your rewards,  </div>
-                                                    <div class="item-detail"> And go back to your hostel with a smile on your face.</div>
-                                                  </li>
-                                                  
-                        
-                          </ul>
-                        
-            </div>
-        </div>
-        </div>
-    </div>
-</section>
-<!-- End Schedule -->
-<section id="faq" class="bg-gray-v2">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 m-auto text-center dino-app-faq">
-                <h2 class="h1">
-                    What People Ask
-                </h2>
-                <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-40 mx-auto"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 mt-4">
-                <div id="accordion" role="tablist" class="bg-white box-shadow-v3">
-                    <div class="accordion__faq">
-                        <a class="accordion__title p-4" data-toggle="collapse" href="#acc1">
-                            <i class="fa fa-angle-down mr-3"></i>
-                            How it works?
-                        </a>
-                        <div id="acc1" class="collapse show" role="tabpanel" data-parent="#accordion">
-                            <div class="accordion__text">
-                                    People from final year have graciously agreed to mentor people from the third, second and first year (if needed). Of course, you still have the choice of doing it alone, but please make sure your team satisfies all the requirements given below.
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion__faq">
-                        <a class="accordion__title p-4" data-toggle="collapse" href="#acc2">
-                            <i class="fa fa-angle-down mr-3"></i>
-                            What is minimum size of team?
-                        </a>
-                        <div id="acc2" class="collapse" role="tabpanel" data-parent="#accordion">
-                            <div class="accordion__text">
-                                4
+                        <div class="accordion__faq">
+                            <a class="accordion__title p-4" data-toggle="collapse" href="#acc1">
+                                <i class="fa fa-angle-down mr-3"></i>
+                                How it works?
+                            </a>
+                            <div id="acc1" class="collapse" role="tabpanel" data-parent="#accordion">
+                                <div class="accordion__text">
+                                    People from final year have graciously agreed to mentor people from the third,
+                                    second and first year (if needed). Of course, you still have the choice of doing it
+                                    alone, but please make sure your team satisfies all the requirements given below.
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion__faq">
-                        <a class="accordion__title p-4" data-toggle="collapse" href="#acc3">
-                            <i class="fa fa-angle-down mr-3"></i>
-                            What is maximum size of team?
-                        </a>
-                        <div id="acc3" class="collapse" role="tabpanel" data-parent="#accordion">
-                            <div class="accordion__text">
-                                5
+                        <div class="accordion__faq">
+                            <a class="accordion__title p-4" data-toggle="collapse" href="#acc2">
+                                <i class="fa fa-angle-down mr-3"></i>
+                                What is minimum size of team?
+                            </a>
+                            <div id="acc2" class="collapse" role="tabpanel" data-parent="#accordion">
+                                <div class="accordion__text">
+                                    4
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion__faq">
-                        <a class="accordion__title p-4" data-toggle="collapse" href="#acc4">
-                            <i class="fa fa-angle-down mr-3"></i>
-                            What is maximum size of student from third year which can be in same team?
-                        </a>
-                        <div id="acc4" class="collapse" role="tabpanel" data-parent="#accordion">
-                            <div class="accordion__text">
+                        <div class="accordion__faq">
+                            <a class="accordion__title p-4" data-toggle="collapse" href="#acc3">
+                                <i class="fa fa-angle-down mr-3"></i>
+                                What is maximum size of team?
+                            </a>
+                            <div id="acc3" class="collapse" role="tabpanel" data-parent="#accordion">
+                                <div class="accordion__text">
+                                    5
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__faq">
+                            <a class="accordion__title p-4" data-toggle="collapse" href="#acc4">
+                                <i class="fa fa-angle-down mr-3"></i>
+                                What is maximum size of student from third year which can be in same team?
+                            </a>
+                            <div id="acc4" class="collapse" role="tabpanel" data-parent="#accordion">
+                                <div class="accordion__text">
                                     2. And then you have to take rest of members from first year.
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion__faq">
-                        <a class="accordion__title p-4" data-toggle="collapse" href="#acc5">
-                            <i class="fa fa-angle-down mr-3"></i>
-                          What is maximum size of student from second year which can be in same team?
-                        </a>
-                        <div id="acc5" class="collapse" role="tabpanel" data-parent="#accordion">
-                            <div class="accordion__text">
-                                   3.You can then select rest of your members from first year.
+                        <div class="accordion__faq">
+                            <a class="accordion__title p-4" data-toggle="collapse" href="#acc5">
+                                <i class="fa fa-angle-down mr-3"></i>
+                                What is maximum size of student from second year which can be in same team?
+                            </a>
+                            <div id="acc5" class="collapse" role="tabpanel" data-parent="#accordion">
+                                <div class="accordion__text">
+                                    3.You can then select rest of your members from first year.
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion__faq">
+                        <div class="accordion__faq">
                             <a class="accordion__title p-4" data-toggle="collapse" href="#acc6">
                                 <i class="fa fa-angle-down mr-3"></i>
                                 What if I don't have any team?
                             </a>
                             <div id="acc6" class="collapse" role="tabpanel" data-parent="#accordion">
                                 <div class="accordion__text">
-                                        Apply as individual, we will make your team which will be a balanced team.
+                                    Apply as individual, we will make your team which will be a balanced team.
                                 </div>
                             </div>
                         </div>
                         <div class="accordion__faq">
-                                <a class="accordion__title p-4" data-toggle="collapse" href="#acc7">
-                                    <i class="fa fa-angle-down mr-3"></i>
-                                    What do I make?
-                                </a>
-                                <div id="acc7" class="collapse" role="tabpanel" data-parent="#accordion">
-                                    <div class="accordion__text">
-                                            There is no theme as such, but stuff that helps make people’s lives easier in the college would be encouraged.
-                                    </div>
+                            <a class="accordion__title p-4" data-toggle="collapse" href="#acc7">
+                                <i class="fa fa-angle-down mr-3"></i>
+                                What do I make?
+                            </a>
+                            <div id="acc7" class="collapse" role="tabpanel" data-parent="#accordion">
+                                <div class="accordion__text">
+                                    There is no theme as such, but stuff that helps make people’s lives easier in the
+                                    college would be encouraged.
                                 </div>
                             </div>
-                            <div class="accordion__faq">
-                                    <a class="accordion__title p-4" data-toggle="collapse" href="#acc8">
-                                        <i class="fa fa-angle-down mr-3"></i>
-                                        Can I participate remotely ?
-                                    </a>
-                                    <div id="acc8" class="collapse" role="tabpanel" data-parent="#accordion">
-                                        <div class="accordion__text">
-                                                No, you have to physically present at the venue of hackathon. :-)
-                                        </div>
-                                    </div>
+                        </div>
+                        <div class="accordion__faq">
+                            <a class="accordion__title p-4" data-toggle="collapse" href="#acc8">
+                                <i class="fa fa-angle-down mr-3"></i>
+                                Can I participate remotely ?
+                            </a>
+                            <div id="acc8" class="collapse" role="tabpanel" data-parent="#accordion">
+                                <div class="accordion__text">
+                                    No, you have to physically present at the venue of hackathon. :-)
                                 </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Faqs -->
-<!-- Start Sponsors -->
-<section id="sponsors" class="bg-gray-v1">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="h1">
-                    Event Sponsors
-                </h2>
-                <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-30 mx-auto"></div>
-            </div>
-        </div>
-        <div class="row">
-            
-            <div class="col-6 col-md-3 text-center mt-2">
-                <div class="box-shadow-v2 bg-white u-flex-center u-h-100p p-4 p-md-5 rounded">
-                    <img src="assets/img/event/GitHub_Logo.png" alt="">
-                </div>
-            </div>
-            
-        
-            <div class="col-6 col-md-3 text-center mt-2">
-                <a href="mailto:vishal129.vk@gmail.com"><div class="box-shadow-v2 bg-white u-flex-center u-h-100p p-4 p-md-5 rounded">
-                   <h2><i class="fa fa-handshake-o"></i><br/>Sponsor this event</h2>
-                </div>
-            </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Sponsors -->
+                            </div>
+                        </div>
 
-<!-- End Pricing -->
-<!-- Start Contact -->
-<section id="contact" data-dark-overlay="7" class="event-contact">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
-                <div class="bg-white box-shadow-v1 p-5 rounded u-h-100p">
-                    <span class="icon icon-Pointer text-primary u-fs-60"></span>
-                    <h4 class="text-red my-4">
-                        Event Venue
-                    </h4>
-                    <p>NIT Hamirpur , Himachal Pradesh</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
-                <div class="bg-white box-shadow-v1 p-5 rounded u-h-100p">
-                    <span class="icon icon-Phone text-primary u-fs-60"></span>
-                    <h4 class="text-red my-4">
-                        Contact Information
-                    </h4>
-                    <p>+91 82191 12164</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4 dino-event-col">
-                <div class="bg-white box-shadow-v1 p-5 rounded u-h-100p">
-                    <span class="icon icon-Mail text-primary u-fs-60"></span>
-                    <h4 class="text-red my-4">
-                        Email
-                    </h4>
-                    <a href="mailto:vishal129.vk@gmail.com">vishal129.vk@gmail.com</p></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End Contact -->
-<!-- Start Footer -->
-<footer class="u-py-60">
-    <div class="container text-center">
+    </section>
+    <!-- End Faqs -->
+    <!-- Start Sponsors -->
+    <section id="sponsors" class="bg-gray-v1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="h1">
+                        Event Sponsors
+                    </h2>
+                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-30 mx-auto"></div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-6 col-md-3 text-center mt-2">
+                    <div class="box-shadow-v2 bg-white u-flex-center u-h-100p p-4 p-md-5 rounded">
+                        <img src="assets/img/event/GitHub_Logo.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-3 text-center mt-2">
+                    <a href="mailto:vishal129.vk@gmail.com">
+                        <div class="box-shadow-v2 bg-white u-flex-center u-h-100p p-4 p-md-5 rounded">
+                            <h2><i class="fa fa-handshake-o"></i><br />Sponsor this event</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Sponsors -->
+
+    <!-- End Pricing -->
+    <!-- Start Contact -->
+    <section id="contact" data-dark-overlay="7" class="event-contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+                    <div class="bg-white box-shadow-v1 p-5 rounded u-h-100p">
+                        <span class="icon icon-Pointer text-primary u-fs-60"></span>
+                        <h4 class="text-red my-4">
+                            Event Venue
+                        </h4>
+                        <p>NIT Hamirpur , Himachal Pradesh</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+                    <div class="bg-white box-shadow-v1 p-5 rounded u-h-100p">
+                        <span class="icon icon-Phone text-primary u-fs-60"></span>
+                        <h4 class="text-red my-4">
+                            Contact Information
+                        </h4>
+                        <p>+91 82191 12164</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4 dino-event-col">
+                    <div class="bg-white box-shadow-v1 p-5 rounded u-h-100p">
+                        <span class="icon icon-Mail text-primary u-fs-60"></span>
+                        <h4 class="text-red my-4">
+                            Email
+                        </h4>
+                        <a href="mailto:vishal129.vk@gmail.com">vishal129.vk@gmail.com</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <footer class="u-py-60">
+        <div class="container text-center">
             <h6 class="display-4 u-fw-600" style="font-size: 40px;">
-                    CSEC
-                </h6>
-        <p class="my-4 text-center">
-            © 2019 CSEC | Made by <a target="_blank" href="https://devaman.github.io?ref=csechack">Final Year</a>
-        </p>
-        <ul class="list-inline social social-rounded social-default social-sm mb-0">
-            <li class="list-inline-item">
-                <a href="https://www.facebook.com/csec.nith/"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li class="list-inline-item">
-                <a href="https://twitter.com/csecnith"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li class="list-inline-item">
-                <a href="https://github.com/CSEC-NITH/"><i class="fa fa-github"></i></a>
-            </li>
-            
-        </ul>
+                CSEC
+            </h6>
+            <p class="my-4 text-center">
+                © 2019 CSEC | Made by <a target="_blank" href="https://devaman.github.io?ref=csechack">Final Year</a>
+            </p>
+            <ul class="list-inline social social-rounded social-default social-sm mb-0">
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com/csec.nith/"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://twitter.com/csecnith"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/CSEC-NITH/"><i class="fa fa-github"></i></a>
+                </li>
+
+            </ul>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Start Go To Top -->
+    <div class="scroll-top bg-white box-shadow-v2">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
     </div>
-</footer>
-<!-- End Footer -->
-<!-- Start Go To Top -->
-<div class="scroll-top bg-white box-shadow-v2">
-    <i class="fa fa-angle-up" aria-hidden="true"></i>
-</div>
-<!-- End Go To Top -->
-<!-- Plugins JS -->
-<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
-<script src="assets/vendor/popper.js/dist/popper.min.js"></script>
-<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="assets/vendor/slick-carousel/slick/slick.min.js"></script>
-<script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
-<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-<script src="assets/vendor/isotope/dist/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/parallax.js/parallax.min.js"></script>
-<script src="assets/vendor/wow/dist/wow.min.js"></script>
-<script src="assets/vendor/vide/dist/jquery.vide.min.js"></script>
-<script src="assets/vendor/typed.js/lib/typed.min.js"></script>
-<script src="assets/vendor/appear-master/dist/appear.min.js"></script>
-<script src="assets/vendor/jquery.countdown/dist/jquery.countdown.min.js"></script>
-<!-- Main JS -->
-<script src="assets/js/dino.js"></script>
-<!-- Google Maps JS -->
-<script src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyB0uuKeEkPfAo7EUINYPQs3bzXn7AabgJI"></script>
-<!-- Map Script JS -->
-<script src="assets/js/map.js"></script>
-<script src="assets/js/custom.js"></script>
+    <!-- End Go To Top -->
+    <!-- Plugins JS -->
+    <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendor/popper.js/dist/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/slick-carousel/slick/slick.min.js"></script>
+    <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope/dist/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/parallax.js/parallax.min.js"></script>
+    <script src="assets/vendor/wow/dist/wow.min.js"></script>
+    <script src="assets/vendor/vide/dist/jquery.vide.min.js"></script>
+    <script src="assets/vendor/typed.js/lib/typed.min.js"></script>
+    <script src="assets/vendor/appear-master/dist/appear.min.js"></script>
+    <script src="assets/vendor/jquery.countdown/dist/jquery.countdown.min.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/dino.js"></script>
+    <!-- Google Maps JS -->
+    <script src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyB0uuKeEkPfAo7EUINYPQs3bzXn7AabgJI"></script>
+    <!-- Map Script JS -->
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
+
 </html>
